@@ -25,7 +25,7 @@ html {
 }
 
 #logo {
-    background: url(img/PPP_Logo_solo.png) no-repeat center center scroll;
+    background: url(..img/PPP_Logo_solo.png) no-repeat center center scroll;
     width: 100%;
     height: auto;
 }
@@ -300,6 +300,11 @@ a:focus {
     -o-background-size: cover;
 }
 
+#about #social {
+    list-style: none;
+    display: inline-block;
+}
+
 #about-content {
     background-color: rgba(0,0,0, .5);
     padding: 100px 100px;
@@ -309,6 +314,17 @@ a:focus {
 #ED {
     background-color: #fff;
 }
+
+#ED.content-section  {
+  padding-top: 100px;
+  padding-bottom:;
+}
+
+#ED-Content {
+    color: #000;
+}
+
+
 
 .download-section {
     width: 100%;
@@ -321,10 +337,8 @@ a:focus {
     -o-background-size: cover;
 }
 
-#ED-logo {
-    width: 300px;
-    background: url (../img/EveryDollar_logo.png) no-repeat scroll;
-}
+
+
 
 #map {
     width: 100%;
