@@ -22,8 +22,38 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
+        
+        <!-- Load stylesheet -->
+        <link rel="stylesheet" href="css/counteverest.css">
+
+        <!-- DEMO styles to center countdown vertically and horizontally -->
+                <style type="text/css">
+            html {
+                display: table;
+                height: 100%;
+                width: 100%;
+            }
+
+            body {
+                background: #eee;
+                display: table-cell;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .ce-countdown {
+                margin: 0 auto;
+                max-width: 800px;
+                text-align: center;
+            }
+        </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +71,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="img/PPP_Logo_solo.png" width="100%">
+                <img src="img/PPP_Logo_solo.png" width="120%">
                 </a>
             </div>
 
@@ -79,6 +109,36 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>We Are At The<br>
                         Turning Point</h2>
+                        <!--Countdown-->
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1>"
+                        <div class="countdown">
+                            <span class="ce-days"></span> <span class="ce-days-label"></span>
+                            <span class="ce-hours"></span> <span class="ce-hours-label"></span>
+                            <span class="ce-minutes"></span> <span class="ce-minutes-label"></span>
+<!--remove for now                            <span class="ce-seconds"></span> <span class="ce-seconds-label"></span> -->
+                        </div>
+
+                        <!--Counter-->
+                        <div class="ce-countdown ce-countdown--theme-10">
+            <div class="ce-unit-wrap">
+                <div class="days"></div>
+                <span class="ce-days-label"></span>
+            </div>
+            <div class="ce-unit-wrap">
+                <div class="hours"></div>
+                <span class="ce-hours-label"></span>
+            </div>
+            <div class="ce-unit-wrap">
+                <div class="minutes"></div>
+                <span class="ce-minutes-label"></span>
+            </div>
+            <div class="ce-unit-wrap">
+                <div class="seconds"></div>
+                <span class="ce-seconds-label"></span>
+            </div>
+        </div>
+        </div>
+
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -90,26 +150,42 @@
 
     <!-- About Section -->
     <section id="about" class="container">
-        <div class="col-lg-4 col-lg-offset-4">
-        <ul id="social">
-            <li>#</li>
-            <li>#</li>
-            <li>#</li>
-            <li>#</li>
-        </ul>
-        </div>
 
         <div class="col-lg-10 col-lg-offset-1">
+
             <div id="about-content" class="content-section">
-            
-                <h2 style="text-align:center; margin-bottom: 5px">About PPP ///</h2>
-                <p style="text-align:center; padding-top: 2px; color:#65ba99; text-transform: Uppercase;">People+Planet Project</p>
-                <p>The People + Planet Project creates campaigns to coincide with UN Sustainable Development Goal Announcements and COP Climate Conferences. Our mission is to distill these global events into approachable calls—and means—to individual action. Whether it be an issue of poverty, hunger, equality, clean water, renewable energy or climate change, the content and tools we create are all designed with the people and the planet first in mind and first at heart.<br><br>
+
+            <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+             <h2 style="text-align:center; margin-bottom: 5px">About PPP/<span style="color:#65ba99;">/</span>/</h2></div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+            <ul class="align:left">
+                    <li><a href="#"><img src="img/in-icon@2x.png" width="75%"></a></li>
+                    <li><a href="#"><img src="img/fb-icon@2x.png" width="75%"></a></li>
+                    <li><a href="#"><img src="img/flickr-icon@2x.png" width="75%"></a></li>
+                    <li><a href="#"><img src="img/tw-icon@2x.png" width="75%"></a></li>
+                </ul>
+                </div>
+            </div>            
+                
+               
+                <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <p style="text-align: center; padding-top: 2px; color:#65ba99; text-transform: Uppercase;">People+Planet Project</p>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+
+                <p style="text-align:left;">The People + Planet Project creates campaigns to coincide with UN Sustainable Development Goal Announcements and COP Climate Conferences. Our mission is to distill these global events into approachable calls—and means—to individual action. Whether it be an issue of poverty, hunger, equality, clean water, renewable energy or climate change, the content and tools we create are all designed with the people and the planet first in mind and first at heart.<br><br>
 
                 These commitments taken together should lay the foundation for addressing the world’s most pressing challenges. This is the year we need to take individual empowered action, connect collectively, and demand real action and accountability from our world leaders.<br><br>
 
-                We stand at the turning point for the future of people and the planet. We must accelerate action and leave no individual or country behind. What happens in 2015 will make an enormous impact on our lives and our children’s lives.  Today is the moment. It is the shifting of the tides. And the People + Planet Project will give you the real tools to make the shift meaningful.<br><br>
+                We stand at the turning point for the future of people and the planet. We must accelerate action and leave no individual or country behind. What happens in 2015 will make an enormous impact on our lives and our children’s lives.  Today is the moment. It is the shifting of the tides. And the People + Planet Project will give you the real tools to make the shift meaningful.</p><br><br>
 
+            </div>
             </div>
         </div>
     </section>
@@ -124,12 +200,12 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2">
                 <div id="ED-Content">
-                <p>The first large-scale campaign out of the People + Planet Project is Every Dollar Is a Vote. We believe that every dollar you spend has an impact on the planet and it’s people. We buy products every day just to survive. Why not buy these products from companies and manufactures that will help push the world forward, and not destroy it.<br><br>
+                <p style="text-align:left;">The first large-scale campaign out of the People + Planet Project is Every Dollar Is a Vote. We believe that every dollar you spend has an impact on the planet and it’s people. We buy products every day just to survive. Why not buy these products from companies and manufactures that will help push the world forward, and not destroy it.<br><br>
 
                 The companies we buy from should be held to the highest environmental, anti-slavery, pro-equality, and pro-women standards to benefit the greater good, that’s where we should be investing our money to make our world a better, more sustainable place to live.<br><br> 
  
                 Through this campaign we will build the necessary tools to engage a broader audience in three main categories: ecommerce shopping, investing and divesting. For the first time we will empower the world to vote for the world we want to see. This campaign is more than a talking point, a petition or a hashtag. It’s a powerful set of tools that turns something you already do into a catalyst for positive change in the world.</p>
-                <img src="" width="100%">
+                <img src="img/images@2x.png" width="100%">
                 </div>
             </div>
         </div>    
@@ -137,20 +213,37 @@
 
 
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- Join Section -->
+    <section id="join" class="text-center">
+        <div class="join-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2 style="margin-bottom: 0; padding-bottom:5px;">Join/<span style="color:#65ba99;">/</span>/</h2>
+                    <p style="padding-top:none; margin-top: none; text-transform: uppercase;">Our Coalition</p>
+
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2"><img src="img/Earth@2x.png" width="100%">
+                        </div>
+                    </div>
+
+
+                    <div class="join-content">
+                        <div class="col-lg-6"><h6>The People + Planet Project builds powerful cross-category partnerships to achieve our vision and mission. Our main expertise is in developing innovative, culturally compelling campaigns and initiatives for a global audience. Our partners work with us to ensure policy impact, increase media presence, provide campaign funding and help cross-pollinate ideas from our individual areas of expertise.</h6></div>
+                        <div class="col-lg-6"><h6>We’re always looking for new strategic partnerships with like-minded brands, organizations and foundations from all sectors and markets. If you think your company’s business model, output and impact square with the path to a better future, reach out to us. Together, we can build a world reflective of our shared values of justice, kindness, and compassion. </h6></div> </div> 
+
+                <div class="join-btn">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Inquire about Joining the Coalition</a>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section 
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -173,18 +266,23 @@
         </div>
     </section>
 
-    <!-- Map Section -->
+  
     <div id="map"></div>
+
+    -->
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; The Global Brain, 2015</p>
         </div>
     </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <script src="js/jquery-1.11.2.min.js">
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -192,10 +290,117 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+      <!-- count everest plugin-->
+    
+        <script src="js/jquery.counteverest.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
+        <!-- Init Count Everest plugin -->
+        <script>
+            var $countdown = $('.ce-countdown');
+            var firstCalculation = true;
+            $countdown.countEverest({
+                day: 30,
+                month: 6,
+                year: 2015,
+                leftHandZeros: true,
+                afterCalculation: function() {
+                    var plugin = this,
+                        units = {
+                            days: this.days,
+                            hours: this.hours,
+                            minutes: this.minutes,
+                            seconds: this.seconds
+                        },
+                        //max values per unit
+                        maxValues = {
+                            hours: '23',
+                            minutes: '59',
+                            seconds: '59'
+                        },
+                        actClass = 'active',
+                        befClass = 'before';
+
+                    //build necessary elements
+                    if (firstCalculation == true) {
+                        firstCalculation = false;
+
+                        //build necessary markup
+                        $countdown.find('.ce-unit-wrap div').each(function () {
+                            var $this = $(this),
+                                className = $this.attr('class'),
+                                value = units[className],
+                                sub = '',
+                                dig = '';
+
+                            //build markup per unit digit
+                            for(var x = 0; x < 10; x++) {
+                                sub += [
+                                    '<div class="digits-inner">',
+                                        '<div class="flip-wrap">',
+                                            '<div class="up">',
+                                                '<div class="shadow"></div>',
+                                                '<div class="inn">' + x + '</div>',
+                                            '</div>',
+                                            '<div class="down">',
+                                                '<div class="shadow"></div>',
+                                                '<div class="inn">' + x + '</div>',
+                                            '</div>',
+                                        '</div>',
+                                    '</div>'
+                                ].join('');
+                            }
+
+                            //build markup for number
+                            for (var i = 0; i < value.length; i++) {
+                                dig += '<div class="digits">' + sub + '</div>';
+                            }
+                            $this.append(dig);
+                        });
+                    }
+
+                    //iterate through units
+                    $.each(units, function(unit) {
+                        var digitCount = $countdown.find('.' + unit + ' .digits').length,
+                            maxValueUnit = maxValues[unit],
+                            maxValueDigit,
+                            value = plugin.strPad(this, digitCount, '0');
+
+                        //iterate through digits of an unit
+                        for (var i = value.length - 1; i >= 0; i--) {
+                            var $digitsWrap = $countdown.find('.' + unit + ' .digits:eq(' + (i) + ')'),
+                                $digits = $digitsWrap.find('div.digits-inner');
+
+                            //use defined max value for digit or simply 9
+                            if (maxValueUnit) {
+                                maxValueDigit = (maxValueUnit[i] == 0) ? 9 : maxValueUnit[i];
+                            } else {
+                                maxValueDigit = 9;
+                            }
+
+                            //which numbers get the active and before class
+                            var activeIndex = parseInt(value[i]),
+                                beforeIndex = (activeIndex == maxValueDigit) ? 0 : activeIndex + 1;
+
+                            //check if value change is needed
+                            if ($digits.eq(beforeIndex).hasClass(actClass)) {
+                                $digits.parent().addClass('play');
+                            }
+
+                            //remove all classes
+                            $digits
+                                .removeClass(actClass)
+                                .removeClass(befClass);
+
+                            //set classes
+                            $digits.eq(activeIndex).addClass(actClass);
+                            $digits.eq(beforeIndex).addClass(befClass);
+                        }
+                    });
+                }
+            });
+        </script>
+    <!--Custom Theme JavaScript-->
+    
     <script src="js/grayscale.js"></script>
 
 </body>
