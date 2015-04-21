@@ -21,14 +21,13 @@ html {
 .navbar-header {
     width: 200px;
     height: auto;
-    background-image: url(../img/PPP_Logo_solo.png) no-repeat center center scroll; 
+    background-image: url(img/PPP_Logo_solo.png) no-repeat center center scroll; 
 }
 
 #logo {
-    background: url(..img/PPP_Logo_solo.png) no-repeat center center scroll;
-    width: 15%;
+    background: url(img/PPP_Logo_solo.png) no-repeat center center scroll;
+    width: 100%;
     height: auto;
-    position: absolute;
 }
 
 h1 {
