@@ -213,7 +213,7 @@ a:focus {
     height: 70px;
     margin-top: 60px;
     padding: 7px 16px;
-    border: 2psx solid #fff;
+    border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
@@ -427,7 +427,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background: 0 0 !important;
+    background: #000 !important;
 }
 
 footer p {
