@@ -16,17 +16,17 @@
 			 * Use this to specify the day in a month of the target date. The value have to be an integer between 1 and
 			 * 31.
 			 */
-			day: 21,
+			day: 1,
 
 			/**
 			 * Use this to specify the month of the target date. The value have to be an integer between 1 and 12.
 			 */
-			month: 9,
+			month: 1,
 
 			/**
 			 * Use this to specify the year of the target date in four digits, e.g. 2021
 			 */
-			year: 2015,
+			year: 2050,
 
 			/**
 			 * Use this to specify the hour of the target date. The value have to be an integer between 0 and 23.
@@ -46,9 +46,8 @@
 			/**
 			 * Use this to specify the millisecond of the target date. The value have to be an integer between 0 and
 			 * 999.
-			 
+			 */
 			millisecond: 0,
-			*/
 
 			/**
 			 * Define the offset from Coordinated Universal Time (UTC) for the location of your target date to sync the
@@ -65,7 +64,7 @@
 			 * 10 May 2014. The daylight saving time in Berlin starts on 29 March this year. For this case I have to
 			 * set "timeZone: 2".
 			 */
-			timeZone: -4,
+			timeZone: null,
 
 			/**
 			 * Enable this option to count up. You have to define your start date by using "day", "month", "year",
@@ -73,7 +72,7 @@
 			 *
 			 * Please note: The callback "onComplete" will never call.
 			 */
-			countUp: true,
+			countUp: false,
 
 			/**
 			 * Set this option to define the current date and time (e.g. the server time via PHP), which is used for the

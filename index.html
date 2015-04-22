@@ -28,8 +28,37 @@
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
 
-    <!-- Load stylesheet -->
-    <link rel="stylesheet" href="css/counteverest.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+            <!-- Load Google Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300">
+        
+        <!-- Load stylesheet -->
+        <link rel="stylesheet" href="css/counteverest.css">
+
+        <!-- DEMO styles to center countdown vertically and horizontally -->
+        <style type="text/css">
+            html {
+                display: table;
+                height: 100%;
+                width: 100%;
+            }
+
+            body {
+                background: rgba(0,0,0,.5);
+                display: table-cell;
+                margin: 0;
+                padding: 0;
+                vertical-align: middle;
+            }
+
+            .ce-countdown {
+                margin: 0 auto;
+                max-width: 400px;
+                text-align: center;
+            }
+        </style>
 
     <!-- DEMO styles to center countdown vertically and horizontally 
     <style type="text/css">
@@ -84,7 +113,7 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#intro">Home</a>
+                            <a class="page-scroll" href="#page-top">Home</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#about">About</a>
@@ -108,23 +137,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2>We Are At The<br>
-                                Turning Point</h2>
-                                <div class="row"><a href="#about" class="btn btn-circle page-scroll">
+                            <h2>We Stand At The<br>
+                                Turning Point</h2>        
+
+                                
+                                <!--Counter Everest Plugin-->
+                                <div class="row">
+
+                                        <div class="ce-countdown ce-countdown--theme-3">
+                                        <div class="ce-col"><span class="ce-hours"></span> <span class="ce-hours-label"></span></div>
+                                        <div class="ce-col"><span class="ce-minutes"></span> <span class="ce-minutes-label"></span></div>
+                                        <div class="ce-col"><span class="ce-seconds"></span> <span class="ce-seconds-label"></span></div>
+                                        </div>
+
+                                </div>
+
+                                
+                                <div class="col-lg-2 col-lg-offset-5"><div class="arrow"><a href="#about" class="btn btn-circle page-scroll">
                                     <i class="fa fa-angle-double-down animated"></i>
                                 </a>
                                 </div>
-                            </div>
 
-                            <!-- Remove for now Everest Plugin Countdown
-                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                                <div class="countdown">
-                                    <span class="ce-days"></span> <span class="ce-days-label"></span>
-                                    <span class="ce-hours"></span> <span class="ce-hours-label"></span>
-                                    <span class="ce-minutes"></span> <span class="ce-minutes-label"></span>
-                                    <span class="ce-seconds"></span> <span class="ce-seconds-label"></span>
-                                </div>
-                            -->
+                            </div>
 
                         </div>
                     </div>
@@ -144,10 +178,10 @@
 
                          <div class="col-lg-4 col-md-4 col-sm-6">
                             <ul class="align:left">
-                                <li><a href="#"><img src="img/in-icon@2x.png" width="75%"></a></li>
-                                <li><a href="#"><img src="img/fb-icon@2x.png" width="75%"></a></li>
+                                <li><a href="https://www.linkedin.com/company/6426412" target="_blank"><img src="img/in-icon@2x.png" width="75%"></a></li>
+                                <li><a href="https://www.facebook.com/TheGlobalBrainLLC" target="_blank"><img src="img/fb-icon@2x.png" width="75%"></a></li>
                                 <li><a href="#"><img src="img/flickr-icon@2x.png" width="75%"></a></li>
-                                <li><a href="#"><img src="img/tw-icon@2x.png" width="75%"></a></li>
+                                <li><a href="https://twitter.com/theglobal_brain" target="_blank" ><img src="img/tw-icon@2x.png" width="75%"></a></li>
                             </ul>
                         </div>
                     </div>            
@@ -167,6 +201,12 @@
                                 These commitments taken together should lay the foundation for addressing the world’s most pressing challenges. This is the year we need to take individual empowered action, connect collectively, and demand real action and accountability from our world leaders.<br><br>
 
                                 We stand at the turning point for the future of people and the planet. We must accelerate action and leave no individual or country behind. What happens in 2015 will make an enormous impact on our lives and our children’s lives.  Today is the moment. It is the shifting of the tides. And the People + Planet Project will give you the real tools to make the shift meaningful.</p><br><br>
+
+                                <div class="col-lg-2 col-lg-offset-5"><div class="arrow"><a href="#ED" class="btn btn-circle page-scroll">
+                                    <i class="fa fa-angle-double-down animated"></i>
+                                </a>
+                                </div>
+
 
                             </div>
                         </div>
@@ -189,6 +229,12 @@
 
                                         Through this campaign we will build the necessary tools to engage a broader audience in three main categories: ecommerce shopping, investing and divesting. For the first time we will empower the world to vote for the world we want to see. This campaign is more than a talking point, a petition or a hashtag. It’s a powerful set of tools that turns something you already do into a catalyst for positive change in the world.</p>
                                         <img src="img/images@2x.png" width="100%">
+
+                                        <div class="col-lg-2 col-lg-offset-5"><div class="arrow"><a href="#join" class="btn btn-circle page-scroll" style="color: #e2e2e2">
+                                    <i class="fa fa-angle-double-down animated" style="color:#000"></i>
+                                </a>
+                                </div>
+
                                     </div>
                                 </div>
                             </div>    
@@ -217,11 +263,20 @@
                                             <div class="join-btn">
                                                 <div class="row">
                                                     <div class="col-lg-10 col-lg-offset-1">
-                                                        <div class="btn btn-default btn-lg">Inquire about Joining the Coalition</div>
+                                                        <a href="http://eepurl.com/bkEVbz" target="_blank"><div class="btn btn-default btn-lg">Inquire about Joining the Coalition</div></a>
 
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="col-lg-2 col-lg-offset-5"><div class="arrow"><a href="#page-top" class="btn btn-circle page-scroll">
+                                    <i class="fa fa-angle-double-up animated"></i>
+                                </a>
+                                </div>
+
+
+                                           
+
                                         </div>
                                     </div>
                                     <!--Closing Join Section-->
@@ -260,15 +315,36 @@
 
 <!-- Footer -->
 <footer>
-    <div class="container text-center">
+<div class="container text-center" >
+    <div class="col-lg-6">
+    <p>All content created by The Global Brain  //   www.globalbrain.is</p>
+    <p>03.542.7202    //    1877 Broadway, Suite 100, Boulder, Colorado</p>
+    </div>
+    <div class="col-lg-6">
         <p>Copyright &copy; The Global Brain, 2015</p>
     </div>
+</div>
 </footer>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
-<script src="js/jquery-1.11.2.min.js">
+
+        <!-- Load all necessary JavaScript files -->
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.counteverest.min.js"></script>
+
+        <!-- Init Count Everest plugin -->
+        <script>
+            $(document).ready(function() {
+                $('.ce-countdown').countEverest({
+                    //Set your target date here!
+                    day: 1,
+                    month: 1,
+                    year: 2017
+                });
+            });
+        </script>
 
 
     <!-- Bootstrap Core JavaScript -->
@@ -277,117 +353,6 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- count everest 
-    
-    <script src="js/jquery.counteverest.min.js"></script>
-
-    <!-- Init Count Everest plugin 
-    <script>
-        var $countdown = $('.ce-countdown');
-        var firstCalculation = true;
-        $countdown.countEverest({
-            day: 30,
-            month: 6,
-            year: 2015,
-            leftHandZeros: true,
-            afterCalculation: function() {
-                var plugin = this,
-                units = {
-                    days: this.days,
-                    hours: this.hours,
-                    minutes: this.minutes,
-                    seconds: this.seconds
-                },
-                        //max values per unit
-                        maxValues = {
-                            hours: '23',
-                            minutes: '59',
-                            seconds: '59'
-                        },
-                        actClass = 'active',
-                        befClass = 'before';
-
-                    //build necessary elements
-                    if (firstCalculation == true) {
-                        firstCalculation = false;
-
-                        //build necessary markup
-                        $countdown.find('.ce-unit-wrap div').each(function () {
-                            var $this = $(this),
-                            className = $this.attr('class'),
-                            value = units[className],
-                            sub = '',
-                            dig = '';
-
-                            //build markup per unit digit
-                            for(var x = 0; x < 10; x++) {
-                                sub += [
-                                '<div class="digits-inner">',
-                                '<div class="flip-wrap">',
-                                '<div class="up">',
-                                '<div class="shadow"></div>',
-                                '<div class="inn">' + x + '</div>',
-                                '</div>',
-                                '<div class="down">',
-                                '<div class="shadow"></div>',
-                                '<div class="inn">' + x + '</div>',
-                                '</div>',
-                                '</div>',
-                                '</div>'
-                                ].join('');
-                            }
-
-                            //build markup for number
-                            for (var i = 0; i < value.length; i++) {
-                                dig += '<div class="digits">' + sub + '</div>';
-                            }
-                            $this.append(dig);
-                        });
-}
-
-                    //iterate through units
-                    $.each(units, function(unit) {
-                        var digitCount = $countdown.find('.' + unit + ' .digits').length,
-                        maxValueUnit = maxValues[unit],
-                        maxValueDigit,
-                        value = plugin.strPad(this, digitCount, '0');
-
-                        //iterate through digits of an unit
-                        for (var i = value.length - 1; i >= 0; i--) {
-                            var $digitsWrap = $countdown.find('.' + unit + ' .digits:eq(' + (i) + ')'),
-                            $digits = $digitsWrap.find('div.digits-inner');
-
-                            //use defined max value for digit or simply 9
-                            if (maxValueUnit) {
-                                maxValueDigit = (maxValueUnit[i] == 0) ? 9 : maxValueUnit[i];
-                            } else {
-                                maxValueDigit = 9;
-                            }
-
-                            //which numbers get the active and before class
-                            var activeIndex = parseInt(value[i]),
-                            beforeIndex = (activeIndex == maxValueDigit) ? 0 : activeIndex + 1;
-
-                            //check if value change is needed
-                            if ($digits.eq(beforeIndex).hasClass(actClass)) {
-                                $digits.parent().addClass('play');
-                            }
-
-                            //remove all classes
-                            $digits
-                            .removeClass(actClass)
-                            .removeClass(befClass);
-
-                            //set classes
-                            $digits.eq(activeIndex).addClass(actClass);
-                            $digits.eq(beforeIndex).addClass(befClass);
-                        }
-                    });
-}
-});
-</script> 
-
--->
 
 <!--Custom Theme JavaScript-->
 

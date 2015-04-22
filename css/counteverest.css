@@ -1,191 +1,25 @@
-/* Theme 1 ----------------------------------------------------------------- */
-
-.ce-countdown--theme-1 {
-	background: #fff;
-	color: #000;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	line-height: 1.4;
-	padding: 20px;
-}
-
-.ce-countdown--theme-1 .ce-col {
-	display: inline-block;
-	margin: 0 20px;
-	padding-bottom: 20px;
-}
-
-.ce-countdown--theme-1 .ce-days,
-.ce-countdown--theme-1 .ce-hours,
-.ce-countdown--theme-1 .ce-minutes,
-.ce-countdown--theme-1 .ce-seconds,
-.ce-countdown--theme-1 .ce-dseconds,
-.ce-countdown--theme-1 .ce-mseconds {
-	font-size: 4.5em;
-}
-
-.ce-countdown--theme-1 .ce-dseconds,
-.ce-countdown--theme-1 .ce-mseconds {
-	display: inline-block;
-	width: 150px;
-}
-
-.ce-countdown--theme-1 .ce-days-label,
-.ce-countdown--theme-1 .ce-hours-label,
-.ce-countdown--theme-1 .ce-minutes-label,
-.ce-countdown--theme-1 .ce-seconds-label,
-.ce-countdown--theme-1 .ce-dseconds-label,
-.ce-countdown--theme-1 .ce-mseconds-label {
-	display: block;
-	text-transform: uppercase;
-}
-
-@media all and (max-width: 540px) {
-	.ce-countdown--theme-1 .ce-days,
-	.ce-countdown--theme-1 .ce-hours,
-	.ce-countdown--theme-1 .ce-minutes,
-	.ce-countdown--theme-1 .ce-seconds,
-	.ce-countdown--theme-1 .ce-dseconds,
-	.ce-countdown--theme-1 .ce-mseconds {
-		font-size: 1.5em;
-	}
-
-	.ce-countdown--theme-1 .ce-col {
-		display: block;
-	}
-}
-
-/* Theme 2 ----------------------------------------------------------------- */
-
-.ce-countdown--theme-2 {
-	background: #ffc728;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.4;
-	padding: 20px;
-}
-
-.ce-countdown--theme-2 .ce-bar {
-	background: #a66600;
-	clear: both;
-	float: left;
-	margin: 7px 0 0 0;
-	width: 330px;
-}
-
-.ce-countdown--theme-2 .ce-fill {
-	background: #fff;
-	height: 5px;
-	width: 0%;
-}
-
-.ce-countdown--theme-2 .ce-info {
-	float: left;
-	line-height: 20px;
-}
-
-.ce-countdown--theme-2 .ce-text {
-	float: left;
-	margin: -14px 0 0 26px;
-	padding-top: 10px;
-	clear: none;
-	text-align: left;
-}
-
-.ce-countdown--theme-2 strong {
-	font-size: 45px;
-	font-style: italic;
-	font-weight: 600;
-	line-height: 1.1em;
-}
-
-.ce-countdown--theme-2 p {
-	font-size: 30px;
-	font-style: italic;
-	line-height: 1.2em;
-	margin: 0;
-}
-
-.ce-countdown--theme-2 .ce-days,
-.ce-countdown--theme-2 .ce-hours,
-.ce-countdown--theme-2 .ce-minutes,
-.ce-countdown--theme-2 .ce-seconds,
-.ce-countdown--theme-2 .ce-dseconds,
-.ce-countdown--theme-2 .ce-mseconds {
-	float: left;
-	font-size: 12px;
-	font-weight: 800 !important;
-	text-align: center;
-	width: 40px;
-}
-
-.ce-countdown--theme-2 .ce-days-label,
-.ce-countdown--theme-2 .ce-hours-label,
-.ce-countdown--theme-2 .ce-minutes-label,
-.ce-countdown--theme-2 .ce-seconds-label,
-.ce-countdown--theme-2 .ce-dseconds-label,
-.ce-countdown--theme-2 .ce-mseconds-label {
-	color: #a76500;
-	float: left;
-	font-size: 12px;
-	font-weight: 400;
-}
-
-@media all and (max-width: 900px) {
-	.ce-countdown--theme-2 {
-		text-align: center;
-	}
-
-	.ce-countdown--theme-2 .ce-info {
-		display: inline-block;
-		float: none;
-	}
-
-	.ce-countdown--theme-2 .ce-text {
-		float: none;
-		margin: 0;
-		text-align: center;
-		padding-top: 20px;
-	}
-
-	.ce-countdown--theme-2 .ce-bar {
-		width: 115px;
-	}
-
-	.ce-countdown--theme-2 strong {
-		font-size: 25px;
-		font-weight: 600;
-	}
-
-	.ce-countdown--theme-2 p {
-		font-size: 20px;
-		margin: 5px 0 0;
-	}
-}
 
 /* Theme 3 ----------------------------------------------------------------- */
 
 .ce-countdown--theme-3 {
-	background: #000;
+	background: rgba(0,0,0,.5);
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0;
 	font-weight: 100;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 }
 	
 .ce-countdown--theme-3 .ce-col {
 	display: inline-block;
-	font-size: 120px;
+	font-size: 40px;
 	padding-bottom: 5px;
 	width: 2em;
 }
 
 .ce-countdown--theme-3 .ce-col + .ce-col {
-	border-left: 1px solid #ffc728;
+	border-left: 1px solid #65ba99;
 }
 
 .ce-countdown--theme-3 .ce-days-label,
@@ -194,16 +28,16 @@
 .ce-countdown--theme-3 .ce-seconds-label,
 .ce-countdown--theme-3 .ce-dseconds-label,
 .ce-countdown--theme-3 .ce-mseconds-label {
-	color: #806314;
+	color: #65ba99;
 	display: block;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 	text-transform: lowercase;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 400px) {
 	.ce-countdown--theme-3 .ce-col {
-		font-size: 80px;
+		font-size: 40px;
 	}
 
 	.ce-countdown--theme-3 .ce-days-label,
@@ -216,7 +50,7 @@
 	}
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 300px) {
 	.ce-countdown--theme-3 .ce-col {
 		display: block;
 		font-size: 70px;
@@ -225,7 +59,7 @@
 
 	.ce-countdown--theme-3 .ce-col + .ce-col {
 		border-left: 0;
-		border-top: 1px solid #ffc728;
+		border-top: 1px solid #65ba99;
 		margin-top: 10px;
 	}
 
@@ -594,14 +428,10 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
  *  SOFTWARE.
  */
 
-.countdown {
-	padding-top: 5%;
-}
-
 .ce-countdown--theme-10 {
     display: inline-block;
-    font-family: 'Bebas-neue','Helvetica Neue', 'cursive';
-    padding: 40px;
+    font-family: 'Unica One', 'cursive';
+    padding: 30px;
     position: relative;
     -webkit-user-select: none;
     text-align: center;
@@ -652,7 +482,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 .ce-countdown--theme-10 .ce-unit-wrap > span {
     color: #929292;
     display: block;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: .66666666666667em 0 0;
     text-transform: uppercase;
 }
@@ -683,15 +513,15 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 
 /* Skeleton */
 .ce-countdown--theme-10 div.digits {
-    background: #fff;
+    background: #000;
     border-radius: 5px;
     float: left;
-    font-size: 20px;
-    height: 100px;
-    line-height: 50px;
+    font-size: 120px;
+    height: 150px;
+    line-height: 150px;
     margin: 0 4px;
     position: relative;
-    width: 60px;
+    width: 70px;
 }
 
 .ce-countdown--theme-10 div.digits div.digits-inner {
@@ -719,7 +549,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 }
 
 .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div {
-    font-size: 20px;
+    font-size: 120px;
     height: 50%;
     left: 0;
     outline: 1px solid transparent;
@@ -767,11 +597,11 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 }
 
 .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div div.inn {
-    background-color: #e2e2e2;
+    background-color: #191919;
     border-radius: 5px;
     color: #fff;
-    font-size: 40px;
-    height: 100%;
+    font-size: 120px;
+    height: 200%;
     left: 0;
     position: absolute;
     text-align: center;
@@ -781,7 +611,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 }
 
 .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div.up div.inn {
-    background: #fff;
+    background: #373737;
     top: 0;
 }
 
@@ -990,7 +820,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
     }
 
     .ce-countdown--theme-10 div.digits {
-        font-size: 40px;
+        font-size: 70px;
         height: 100px;
         line-height: 100px;
         margin: 0 2px;
@@ -998,7 +828,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
     }
 
     .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div {
-        font-size: 40px;
+        font-size: 70px;
     }
 
     .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div.up:after {
@@ -1007,7 +837,7 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
     }
 
     .ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div div.inn {
-        font-size: 40px;
+        font-size: 70px;
         left: 0;
     }
 }
@@ -1147,11 +977,9 @@ html:not([class*='ce-ie']) .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
 .ce-countdown--theme-11 .ce-days-label,
 .ce-countdown--theme-11 .ce-hours-label,
 .ce-countdown--theme-11 .ce-minutes-label {
-	font-family: "bebas-neue", "helvetica neue";
-	font-color: #fff;
 	display: block;
-	font-size: 12px;
-	margin-top: -20px;
+	font-size: 24px;
+	margin-top: -10px;
 	text-transform: uppercase;
 }
 
