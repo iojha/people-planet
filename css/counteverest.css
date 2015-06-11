@@ -75,3 +75,184 @@
 	}
 }
 
+/* Theme 12 ---------------------------------------------------------------- */
+.ce-countdown-wrap--theme-12 {
+	background: url('../media/theme-12/bg-video-fallback.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.ce-countdown-wrap--theme-12::after {
+	-webkit-animation: ce-countdown-colorchange--theme-12 10s linear infinite alternate;
+    -moz-animation: ce-countdown-colorchange--theme-12 10s linear infinite alternate;
+    -o-animation: ce-countdown-colorchange--theme-12 10s linear infinite alternate;
+    animation: ce-countdown-colorchange--theme-12 10s linear infinite alternate;
+	content: '';
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.ce-ie .ce-countdown-wrap--theme-12::after {
+	display: none;
+}
+
+@-webkit-keyframes ce-countdown-colorchange--theme-12 {
+    0%  { background-color: rgba(80,0,190,.4); }
+    25%  { background-color: rgba(0,98,190,.4); }
+    75%  { background-color: rgba(0,156,190,.4); }
+    100%  { background-color: rgba(80,0,190,.4); }
+}
+
+@-moz-keyframes ce-countdown-colorchange--theme-12 {
+    0%  { background-color: rgba(80,0,190,.4); }
+    25%  { background-color: rgba(0,98,190,.4); }
+    75%  { background-color: rgba(0,156,190,.4); }
+    100%  { background-color: rgba(80,0,190,.4); }
+}
+
+@-o-keyframes ce-countdown-colorchange--theme-12 {
+    0%  { background-color: rgba(80,0,190,.4); }
+    25%  { background-color: rgba(0,98,190,.4); }
+    75%  { background-color: rgba(0,156,190,.4); }
+    100%  { background-color: rgba(80,0,190,.4); }
+}
+
+@keyframes ce-countdown-colorchange--theme-12 {
+    0%  { background-color: rgba(80,0,190,.4); }
+    25%  { background-color: rgba(0,98,190,.4); }
+    75%  { background-color: rgba(0,156,190,.4); }
+    100%  { background-color: rgba(80,0,190,.4); }
+}
+
+.ce-countdown--theme-12 {
+	color: #fff;
+	font-family: 'Josefin Slab', serif;
+	font-size: 0;
+	font-weight: 400;
+	position: relative;
+	z-index: 2;
+}
+
+.ce-countdown--theme-12 .ce-col {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.ce-countdown--theme-12 .ce-digits {
+	display: inline-block;
+	margin: 0 18px;
+}
+
+.ce-countdown--theme-12 .ce-digits span {
+	border-radius: 50px;
+	border: 1px solid #fff;
+	display: inline-block;
+	font-size: 80px;
+	font-weight: 100;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 7px;
+	position: relative;
+	text-align: center;
+	width: 100px;
+}
+
+.ce-countdown--theme-12 .ce-days-label,
+.ce-countdown--theme-12 .ce-hours-label,
+.ce-countdown--theme-12 .ce-minutes-label,
+.ce-countdown--theme-12 .ce-seconds-label,
+.ce-countdown--theme-12 .ce-dseconds-label,
+.ce-countdown--theme-12 .ce-mseconds-label {
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin: 25px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ce-countdown-bg-video--theme-12 {
+	background-size: cover;
+	background: url('../media/theme-12/bg-video-fallback.jpg') no-repeat;
+	bottom: 0;
+	height: auto;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	right: 0;
+	width: auto;
+	z-index: 0;
+}
+
+@media all and (max-width: 820px) {
+	.ce-countdown--theme-12 .ce-digits {
+		margin: 0 15px;
+	}
+
+	.ce-countdown--theme-12 .ce-digits span {
+		border-radius: 40px;
+		font-size: 60px;
+		font-weight: 100;
+		height: 80px;
+		line-height: 80px;
+		margin: 0 6px;
+		width: 80px;
+	}
+
+	.ce-countdown--theme-12 .ce-days-label,
+	.ce-countdown--theme-12 .ce-hours-label,
+	.ce-countdown--theme-12 .ce-minutes-label,
+	.ce-countdown--theme-12 .ce-seconds-label,
+	.ce-countdown--theme-12 .ce-dseconds-label,
+	.ce-countdown--theme-12 .ce-mseconds-label {
+		font-size: 18px;
+		letter-spacing: 4px;
+		margin: 20px 0 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.ce-countdown--theme-12 .ce-col {
+		margin: 15px 0;
+	}
+
+	.ce-countdown--theme-12 .ce-digits span {
+		border-radius: 30px;
+		font-size: 30px;
+		font-weight: 400;
+		height: 60px;
+		line-height: 65px;
+		margin: 0 5px;
+		width: 60px;
+	}
+
+	.ce-countdown--theme-12 .ce-days-label,
+	.ce-countdown--theme-12 .ce-hours-label,
+	.ce-countdown--theme-12 .ce-minutes-label,
+	.ce-countdown--theme-12 .ce-seconds-label,
+	.ce-countdown--theme-12 .ce-dseconds-label,
+	.ce-countdown--theme-12 .ce-mseconds-label {
+		font-size: 12px;
+		letter-spacing: 4px;
+		margin: 10px 0 0;
+	}
+}
+
+/* Clearfix ---------------------------------------------------------------- */
+
+.ce-clearfix:before,
+.ce-clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.ce-clearfix:after {
+	clear: both;
+}
